@@ -170,7 +170,7 @@ li.discord{
     position: relative;
     z-index: 98;
     margin-bottom: -20px;
-    background: linear-gradient(-180deg, #e7dcca, #c7c7c7); /* Background color for the actual content. The first one must match the color at #divider*/
+    background: linear-gradient(-180deg, #e7dcca, #eee); /* Background color for the actual content. The first one must match the color at #divider*/
 }
 
 #content_container {
