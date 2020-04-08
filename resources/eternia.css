@@ -118,6 +118,8 @@ li.discord{
 
 #eternia_logo {
     max-width: 95%;
+    width:20%;
+    image-rendering: crisp-edges;
 }
 
 .panel {
@@ -139,13 +141,27 @@ li.discord{
 }
 
 #layer-1 {
-    background-image: url('https://stardewvalley.net/wp-content/themes/stardewvalley/images/parallax/parallax1.png');          /* Background Gradient   */
+    background-image: url('https://cdn.discordapp.com/attachments/109724864788615168/697569384859959407/parallaxpor-do-sol3.png');          /* Background Gradient   */
     background-color: #000000;
     position: absolute;
 }
 #layer-2 {
-    background-image: url('https://stardewvalley.net/wp-content/themes/stardewvalley/images/parallax/parallax2.png');          /* Stars                 */
+    background-image: url('https://stardewvalley.net/wp-content/themes/stardewvalley/images/parallax/parallax2.png');                       /* Stars                 */
     position: absolute;
+}
+
+#layer-3 {
+    background-image: url('clouds.png');                                                                                                    /* Clouds                */
+    animation: horizontal-slide 90s linear infinite;
+    opacity: 40%;
+    image-rendering: crisp-edges;
+}
+
+#layer-4 {
+    background-image: url('clouds1.png');                                                                                                    /* Clouds                */
+    animation: horizontal-slide 60s linear infinite;
+    opacity: 0.2;
+    image-rendering: crisp-edges;
 }
 
 .content_break {
@@ -211,4 +227,9 @@ li.discord{
 #content_highlight {
     color: #ff6633;
     font-weight: 700;
+}
+
+@keyframes horizontal-slide {
+    0%   {background-position: 0px 0%;}
+    100% {background-position: 1600px 0%;}
 }
