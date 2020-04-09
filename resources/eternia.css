@@ -116,12 +116,26 @@ li.discord{
     height: 100%;
 }
 
-#eternia_logo {
-    max-width: 95%;
-    width:20%;
-    image-rendering: crisp-edges;
+@media (max-width: 640px){
+ 
+    #eternia_logo {
+        max-width: 95%;
+        width:90%;
+        image-rendering: crisp-edges;
+    }
+     
 }
-
+     
+@media (min-width: 768px){
+     
+    #eternia_logo {
+        max-width: 95%;
+        width:20%;
+        image-rendering: crisp-edges;
+    }
+     
+}
+     
 .panel {
     position: relative;
     z-index: 10;
@@ -141,7 +155,7 @@ li.discord{
 }
 
 #layer-1 {
-    background-image: url('https://cdn.discordapp.com/attachments/109724864788615168/697569384859959407/parallaxpor-do-sol3.png');          /* Background Gradient   */
+    background-image: url('parallaxbg.png');          /* Background Gradient   */
     background-color: #000000;
     position: absolute;
 }
