@@ -205,7 +205,6 @@ li.discord{
 #layer-4 {
     background-image: url('https://i.imgur.com/2yCwm9W.png');                                                                                                    
     animation: horizontal-slide 90s linear infinite;
-    opacity: 0.4;
     image-rendering: crisp-edges;
 }
 
@@ -220,7 +219,6 @@ li.discord{
 #layer-6 {
     background-image: url('https://i.imgur.com/wnR89SB.png');                                                                                                    
     animation: horizontal-slide 60s linear infinite;
-    opacity: 0.4;
     image-rendering: crisp-edges;
 }
 
