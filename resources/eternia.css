@@ -17,7 +17,18 @@ body {
 }
 
 /* Navbar */
-.navbar_menu{
+
+.header{
+    width: 100%;
+    position: absolute;
+    z-index: 96;
+}
+
+.navbar{
+    background-color: rgba(227, 242, 253, 0.8);
+}
+/*Image-based navbar artifacts*/
+/* .navbar_menu{
     margin-top: 16px;
 }
 
@@ -80,7 +91,7 @@ li.faq:hover{
 li.discord{
     background:url('discord.png') no-repeat center;
     align-self: left;
-}
+} */
 
 /* Parallax */
 .panel,
@@ -117,17 +128,37 @@ li.discord{
 }
 
 @media (max-width: 640px){
- 
+    
+    #mobile_brand{
+        display: block;
+    }
+
+    #desktop_brand{
+        display: none;
+    }
+
     #eternia_logo {
         max-width: 95%;
         width:90%;
         image-rendering: crisp-edges;
     }
+
+    .discord{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
      
 }
      
 @media (min-width: 768px){
-     
+
+    #mobile_brand{
+        display: none;
+    }
+
+    #desktop_brand{
+        display: block;
+    }
     #eternia_logo {
         max-width: 95%;
         width:20%;
@@ -160,21 +191,36 @@ li.discord{
     position: absolute;
 }
 #layer-2 {
-    background-image: url('parallax-space-stars.png');                       /* Stars                 */
+    background-image: url('parallax-space-stars.png');                       
     position: absolute;
 }
-
+/* Back mountains & clouds */
 #layer-3 {
-    background-image: url('clouds.png');                                                                                                    /* Clouds                */
-    animation: horizontal-slide 90s linear infinite;
-    opacity: 40%;
-    image-rendering: crisp-edges;
+    background-image: url('https://i.imgur.com/PdGL8hM.png');
+    background-position: bottom center;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
 }
 
 #layer-4 {
-    background-image: url('clouds1.png');                                                                                                    /* Clouds                */
+    background-image: url('https://i.imgur.com/2yCwm9W.png');                                                                                                    
+    animation: horizontal-slide 90s linear infinite;
+    opacity: 0.4;
+    image-rendering: crisp-edges;
+}
+
+/* Front mountains & clouds */
+#layer-5 {
+    background-image:url('https://i.imgur.com/3KDzVgE.png');
+    background-position: bottom center;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+} 
+
+#layer-6 {
+    background-image: url('https://i.imgur.com/wnR89SB.png');                                                                                                    
     animation: horizontal-slide 60s linear infinite;
-    opacity: 0.2;
+    opacity: 0.4;
     image-rendering: crisp-edges;
 }
 

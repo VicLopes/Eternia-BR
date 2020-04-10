@@ -25,25 +25,45 @@
     </head>
 
     <body data-gr-c-s-loaded="true">
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-            <div class="container navbar_menu">
-                <ul class="navbar-nav mr-auto">
-                    <li id="home" class="home"><a href="#"></a></li>
-                    <li id="forums" class="forums"><a href="https://chronicles-of-esshar.com/br/"></a></li>
-                    <li id="wiki" class="wiki"><a href="https://eternia-br.fandom.com/wiki/"></a></li>
-                    <li id="faq" class="faq"><a href="#"></a></li>
-                </ul>
-                <a class="discord" href="#"></a>
-            </div>
-        </nav>
+        <header class="header">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <span class="navbar-brand" id="mobile_brand">Eternia 3</span>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Artifact navbar_menu class for image-based navbar -->
+                <div class="container">
+                    <span class="navbar-brand" id="desktop_brand">Eternia 3</span>
+                    <div class="navbar_menu collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li id="home" class="home nav-item active">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li id="forums" class="forums nav-item">
+                                <a class="nav-link" href="https://chronicles-of-esshar.com/br/">Forums</a>
+                            </li>
+                            <li id="wiki" class="wiki nav-item">
+                                <a class="nav-link" href="https://eternia-br.fandom.com/wiki/">Wiki</a>
+                            </li>
+                            <li id="faq" class="faq nav-item">
+                                <a class="nav-link" href="#">FAQ</a>
+                            </li>
+                        </ul>
+                        <a class="discord nav-link" href="#">Discord</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
         <div id="logo_wrapper">
             <div id="mainpage_logo"><img src="resources/logo.png" alt="Eternia Logo" id="eternia_logo"></div>
         </div>
         <div class="panel" id="parallax">
             <div class="panel_layer parallax pixelated" id="layer-1" data-speed="15" style="transform: translate3d(0px, 0px, 0px)"></div>
             <div class="panel_layer parallax pixelated" id="layer-2" data-speed="15" style="transform: translate3d(0px, 0px, 0px)"></div>
-            <div class="panel_layer parallax pixelated" id="layer-3" data-speed="100" style="transform: translate3d(0px, 0px, 0px)"></div>
-            <div class="panel_layer parallax pixelated" id="layer-4" data-speed="70" style="transform: translate3d(0px, 0px, 0px)"></div>
+            <div class="panel_layer parallax pixelated" id="layer-3" data-speed="50" style="transform: translate3d(0px, 0px, 0px)"></div>
+            <div class="panel_layer parallax pixelated" id="layer-4" data-speed="100" style="transform: translate3d(0px, 0px, 0px)"></div>
+            <div class="panel_layer parallax pixelated" id="layer-5" data-speed="75" style="transform: translate3d(0px, 0px, 0px)"></div>
+            <div class="panel_layer parallax pixelated" id="layer-6" data-speed="75" style="transform: translate3d(0px, 0px, 0px)"></div>
             <!-- <div class="content_break"></div> -->
           </div>
         <div style="clear: both;"></div>
@@ -51,7 +71,7 @@
         <div id="content">
             <div id="content_container">
                 <div id="content_text_area">
-                    <span id="content_title">Recém-chegados em Esshar...</span><br><br>
+                    <span id="content_title">Recém-chegados em Esshar</span><br><br>
         
                     Você viajou, sozinho ou junto de outros, para a fronteira do continente de <span id="content_highlight">Esshar</span>.<br>
                     Armado somente com sua força de vontade, o seu destino agora é livre para que mude como quiser!
