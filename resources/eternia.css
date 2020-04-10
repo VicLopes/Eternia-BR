@@ -204,7 +204,7 @@ li.discord{
 
 #layer-4 {
     background-image: url('https://i.imgur.com/2yCwm9W.png');                                                                                                    
-    animation: horizontal-slide 90s linear infinite;
+    animation: cloud-slide 90s linear infinite;
     image-rendering: crisp-edges;
 }
 
@@ -218,7 +218,7 @@ li.discord{
 
 #layer-6 {
     background-image: url('https://i.imgur.com/wnR89SB.png');                                                                                                    
-    animation: horizontal-slide 60s linear infinite;
+    animation: cloud-slide 60s linear infinite;
     image-rendering: crisp-edges;
 }
 
@@ -287,7 +287,7 @@ li.discord{
     font-weight: 700;
 }
 
-@keyframes horizontal-slide {
+@keyframes cloud-slide {
     0%   {background-position: 0px 0%;}
     100% {background-position: 1778px 0%;}
 }
