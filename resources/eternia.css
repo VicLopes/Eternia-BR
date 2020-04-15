@@ -121,13 +121,12 @@ li.discord{
 }
 
 #logo_wrapper {
-    min-height: 750px;
     position: absolute;
     width: 100%;
     height: 100%;
 }
 
-@media (max-width: 640px){
+/* @media (max-width: 640px){
     
     #mobile_brand{
         display: block;
@@ -165,8 +164,8 @@ li.discord{
         image-rendering: crisp-edges;
     }
      
-}
-     
+}  */
+
 .panel {
     position: relative;
     z-index: 10;
