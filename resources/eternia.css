@@ -126,45 +126,10 @@ li.discord{
     height: 100%;
 }
 
-/* @media (max-width: 640px){
-    
-    #mobile_brand{
-        display: block;
-    }
-
-    #desktop_brand{
-        display: none;
-    }
-
-    #eternia_logo {
-        max-width: 95%;
-        width:90%;
-        image-rendering: crisp-edges;
-    }
-
-    .discord{
-        padding-right: 0px;
-        padding-left: 0px;
-    }
-     
+#eternia_logo {
+    max-width: 390px;
+    width:90%;
 }
-     
-@media (min-width: 768px){
-
-    #mobile_brand{
-        display: none;
-    }
-
-    #desktop_brand{
-        display: block;
-    }
-    #eternia_logo {
-        max-width: 95%;
-        width:20%;
-        image-rendering: crisp-edges;
-    }
-     
-}  */
 
 .panel {
     position: relative;
