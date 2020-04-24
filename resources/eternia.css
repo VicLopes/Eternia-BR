@@ -251,8 +251,8 @@ li.discord{
     font-weight: 700;
 }
 
-.larger_img{
-    transition: transform .5s;
+.img-enlargable{
+    cursor: zoom-in;
 }
 
 @keyframes cloud-slide {
