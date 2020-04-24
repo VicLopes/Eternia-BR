@@ -5,7 +5,6 @@
 body {
     /* background: url("vincentiu-solomon-ln5drpv_ImI-unsplash.jpg") no-repeat fixed center center / cover; */
     background: #eee;
-    image-rendering: pixelated;
     font-family: 'Open Sans',sans-serif;
     font-weight: 400;
     font-size: 17px;
