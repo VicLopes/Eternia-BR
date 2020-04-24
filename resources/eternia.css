@@ -4,7 +4,7 @@
 
 body {
     /* background: url("vincentiu-solomon-ln5drpv_ImI-unsplash.jpg") no-repeat fixed center center / cover; */
-    background: #e0ffd8;
+    background: #eee;
     image-rendering: pixelated;
     font-family: 'Open Sans',sans-serif;
     font-weight: 400;
@@ -220,6 +220,7 @@ li.discord{
 #content_text_area {
     padding: 10px;
     text-align: center;
+    vertical-align: middle;
     line-height: 170%;
     padding-left: 0px;
     padding-right: 0px;
