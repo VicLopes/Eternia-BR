@@ -44,14 +44,13 @@
 
     <header class="header">
         <nav class="navbar navbar-expand-lg navbar-light">
-            <span class="navbar-brand" id="desktop_brand">Crônicas de Esshar</span>
+            <span class="navbar-brand">Crônicas de Esshar</span>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <!-- Artifact navbar_menu class for image-based navbar -->
             <div class="container">
-                <div class="navbar_menu collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li id="home" class="home nav-item active">
                             <a class="nav-link" href="#">Home</a>
@@ -71,55 +70,35 @@
             </div>
         </nav>
     </header>
-    <div id="logo_wrapper">
-        <div id="mainpage_logo"><img src="resources/logo.png" alt="Eternia Logo" id="eternia_logo"></div>
+    <div id="logo-wrapper">
+        <div id="mainpage-logo"><img src="resources/logo.png" alt="Eternia Logo" id="eternia-logo"></div>
     </div>
     <div class="panel" id="parallax">
-        <div class="panel_layer parallax pixelated" id="layer-1" data-speed="15"
+        <div class="panel-layer parallax pixelated" id="layer-1" data-speed="15"
             style="transform: translate3d(0px, 0px, 0px)"></div>
-        <div class="panel_layer parallax pixelated" id="layer-2" data-speed="15"
+        <div class="panel-layer parallax pixelated" id="layer-2" data-speed="15"
             style="transform: translate3d(0px, 0px, 0px)"></div>
-        <div class="panel_layer parallax pixelated" id="layer-3" data-speed="50"
+        <div class="panel-layer parallax pixelated" id="layer-3" data-speed="50"
             style="transform: translate3d(0px, 0px, 0px)"></div>
-        <div class="panel_layer parallax pixelated" id="layer-4" data-speed="100"
+        <div class="panel-layer parallax pixelated" id="layer-4" data-speed="100"
             style="transform: translate3d(0px, 0px, 0px)"></div>
-        <div class="panel_layer parallax pixelated" id="layer-5" data-speed="75"
+        <div class="panel-layer parallax pixelated" id="layer-5" data-speed="75"
             style="transform: translate3d(0px, 0px, 0px)"></div>
-        <div class="panel_layer parallax pixelated" id="layer-6" data-speed="75"
+        <div class="panel-layer parallax pixelated" id="layer-6" data-speed="75"
             style="transform: translate3d(0px, 0px, 0px)"></div>
-        <!-- <div class="content_break"></div> -->
     </div>
     <div style="clear: both;"></div>
-    <div id="divider">
-        <div id="divider_overlay"></div>
-    </div>
+    <div id="divider"></div>
     <div id="content">
-        <div id="content_container">
-            <div id="content_text_area">
-                <span id="content_title">Recém-chegados em Esshar</span><br><br>
+        <div class="container">
+            <div class="text-area">
+                <span id="title">Recém-chegados em Esshar</span><br><br>
 
                 Você viajou, sozinho ou junto de outros, para a fronteira do continente de <span
-                    id="content_highlight">Esshar</span>.<br>
+                    id="highlight">Esshar</span>.<br>
                 Armado somente com sua força de vontade, o seu destino agora é livre para que mude como quiser!
                 <hr>
             </div>
-        </div>
-        <div id="content_text_area">
-            <span id="content_title">Features</span><br><br>
-            <ul>
-                <li><span id="content_highlight">Crie sua própria história:</span> Decida como será o destino do seu
-                    personagem em um mundo sandbox aberto!</li>
-                <li><span id="content_highlight">Faça um personagem único:</span> Com diversas àrvores de magia
-                    disponíveis, você pode criar uma combinação nunca vista antes!</li>
-                <li><span id="content_highlight">Por jogadores, para jogadores:</span> O mundo inteiro é moldado através
-                    da ação de jogadores como você!</li>
-                <li><span id="content_highlight">Explore:</span> No mapa, existem diversos segredos a serem achados, e
-                    quando achar todos, ainda existem opções!</li>
-                <li><span id="content_highlight">Aventure-se:</span> Aventuras estão disponíveis através de eventos,
-                    proporcionados por jogadores e administradores!</li>
-                <li><span id="content_highlight">Customize seu personagem:</span> É possível, além de tudo, mudar as
-                    roupas do personagem para <i>qualquer</i> sprite que se tenha!</li>
-            </ul>
         </div>
         <div class="container">
             <div class="row my-3">
@@ -128,8 +107,8 @@
                         src="https://cdn.discordapp.com/attachments/282698503665221633/701262544165404702/homem_correndo.gif">
                 </div>
                 <div class="col-md-6">
-                    <span id="content_text_area" class="d-inline-block">
-                        <span id="content_highlight">HIGHLIGHT</span><br>
+                    <span class="d-block text-center text">
+                        <span id="highlight">HIGHLIGHT</span><br>
                         Lorem ipsum dolor sit amet, consectetur
                         adipiscing elit. Quisque ullamcorper elementum nunc, ac luctus risus aliquam at. Vestibulum sit
                         amet arcu non velit
@@ -142,8 +121,8 @@
             </div>
             <div class="row my-3">
                 <div class="col-md-6">
-                    <span id="content_text_area" class="d-block">
-                        <span id="content_highlight">TEM MAIS NAO</span><br>
+                    <span class="d-block text-center">
+                        <span id="highlight">TEM MAIS NAO</span><br>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Quisque ullamcorper elementum nunc, ac luctus risus aliquam at. Vestibulum sit amet arcu non
                         velit
@@ -160,7 +139,7 @@
             </div>
             <div class="row mt-3">
                 <div class="col-md-12">
-                    <span id="content_text_area" class="d-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                    <span class="d-block text-area">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
                         ullamcorper elementum nunc, ac luctus risus aliquam at. Vestibulum sit amet arcu non velit
                         mollis lobortis. Morbi sed felis posuere orci consectetur tincidunt. Quisque nec mauris eu augue
                         blandit placerat nec id odio. Mauris iaculis orci non faucibus rhoncus. Nulla facilisi. Aliquam
