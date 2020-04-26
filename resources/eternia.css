@@ -138,6 +138,11 @@ body {
     cursor: zoom-in;
 }
 
+.img-label{
+    font-size: 0.8rem;
+    color: #5f5858;
+}
+
 .modal-img{
     width: 683px;
     height: 451px;
@@ -148,7 +153,6 @@ body {
 #bigModal{
     max-width: 80%;
 }
-
 @keyframes cloud-slide {
     0%   {background-position: 0px 0%;}
     100% {background-position: 1778px 0%;}
