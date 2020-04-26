@@ -1,6 +1,7 @@
 
 /*Import Font*/
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,400;0,700;0,800;0,900;1,200;1,400;1,700;1,800&family=Open+Sans:wght@300;400;600;700;800&family=Raleway:ital,wght@0,600;0,700;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
 
 body {
     background: #eee;
@@ -122,14 +123,14 @@ body {
 }
 
 #title {
-    font-family: 'Fira Sans',sans-serif;
-    color: #0066cc;
+    font-family: 'MedievalSharp', cursive;
+    color: #111;
     font-size: 45px;
     font-weight: 600;
 }
 
 #highlight {
-    color: #ff6633;
+    color: #321957;
     font-weight: 700;
 }
 
