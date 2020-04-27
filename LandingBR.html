@@ -19,7 +19,7 @@
         <div class="modal-dialog modal-dialog-centered modal-img" role="document">
             <div class="modal-content">
                 <img class="img-fluid"
-                    src=https://cdn.discordapp.com/attachments/695837712124739604/703119817011363940/gaygaygaycupinto.png>
+                    src="resources/fire.png">
             </div>
         </div>
     </div>
@@ -28,7 +28,7 @@
         <div class="modal-dialog modal-dialog-centered modal-img" role="document">
             <div class="modal-content">
                 <img class="img-fluid"
-                    src=https://cdn.discordapp.com/attachments/695837712124739604/703468196878876692/timebeam.png>
+                    src="resources/timebeam.png">
             </div>
         </div>
     </div>
@@ -37,7 +37,7 @@
         <div class="modal-dialog modal-dialog-centered modal-img" role="document">
             <div class="modal-content">
                 <img class="img-fluid"
-                    src=https://cdn.discordapp.com/attachments/695837712124739604/703386312031469638/cristalgay.png>
+                    src="resources/cristal.png">
             </div>
         </div>
     </div>
@@ -46,7 +46,7 @@
         <div class="modal-dialog modal-dialog-centered" role="document" id="bigModal">
             <div class="modal-content">
                 <img class="img-fluid"
-                    src="https://cdn.discordapp.com/attachments/695837712124739604/703378757645500446/screenshotbr.png">
+                    src="resources/screenshotbr.png">
             </div>
         </div>
     </div>
@@ -200,7 +200,39 @@
                         O que você está esperando? Entre no nosso <a href=https://discord.gg/qMCvNQ3>Discord</a> para acompanhar o jogo e a playerbase!<br>
                         Também cheque nosso <a href="https://chronicles-of-esshar.com/br/">Fórum</a>, ele é importante para o jogo!<br>
                     </span>
-                    <a class="d-block text-center font-weight-bold" href=https://chronicles-of-esshar.com/download/Setup_Esshar.exe>E clique aqui para jogar agora!</a>
+                    <div class='d-block text-center font-weight-bold' id="demo">
+                        <!-- COUNTDOWN TIMER -->
+                    </div>
+                    <script>
+                        // Set the date we're counting down to
+                        var countDownDate = new Date("May 15, 2020 18:00:00").getTime();
+                        
+                        // Update the count down every 1 second
+                        var x = setInterval(function() {
+                        
+                          // Get todays date and time
+                          var now = new Date().getTime();
+                        
+                          // Find the distance between now an the count down date
+                          var distance = countDownDate - now;
+                        
+                          // Time calculations for days, hours, minutes and seconds
+                          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                        
+                          // Display the result in the element with id="demo"
+                          document.getElementById("demo").innerHTML = days + " dias " + hours + " horas "
+                          + minutes + " minutos e " + seconds + " segundos até que o servidor esteja aberto!";
+                        
+                          // If the count down is finished, write some text 
+                          if (distance < 0) {
+                            clearInterval(x);
+                            document.getElementById("demo").innerHTML = "<a href=https://chronicles-of-esshar.com/download/Setup_Esshar.exe>E clique aqui para jogar agora!</a>";
+                          }
+                        }, 1000);
+                        </script>
                 </div>
             </div>
         </div>
